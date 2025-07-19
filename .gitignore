@@ -1,0 +1,137 @@
+# .gitignore for Web Application (Frontend & Backend)
+
+# Frontend
+## Dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/yarn.lock
+/frontend/package-lock.json
+
+## Build files
+/frontend/build/
+/frontend/dist/
+/frontend/.next/
+/frontend/out/
+
+## Cache
+/frontend/.cache/
+/frontend/.npm
+/frontend/.eslintcache
+
+## Environment variables
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+## Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+## Coverage directory
+/frontend/coverage/
+
+## Editor directories and files
+/frontend/.idea/
+/frontend/.vscode/
+/frontend/*.suo
+/frontend/*.ntvs*
+/frontend/*.njsproj
+/frontend/*.sln
+/frontend/*.sw?
+
+# Backend
+## Dependencies
+/backend/node_modules/
+/backend/package-lock.json
+/backend/yarn.lock
+/backend/vendor/
+/backend/composer.lock
+
+## Environment variables
+/backend/.env
+/backend/.env.local
+/backend/.env.development
+/backend/.env.test
+/backend/.env.production
+/backend/config/local.*
+
+## Logs
+/backend/logs/
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/*.log
+
+## Runtime data
+/backend/pids
+/backend/*.pid
+/backend/*.seed
+/backend/*.pid.lock
+
+## Build files
+/backend/dist/
+/backend/build/
+/backend/tmp/
+/backend/temp/
+
+## Coverage directory
+/backend/coverage/
+
+## Python specific
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/*$py.class
+/backend/.Python
+/backend/env/
+/backend/venv/
+/backend/.env/
+/backend/.venv/
+/backend/ENV/
+/backend/.eggs/
+/backend/*.egg-info/
+/backend/*.egg
+
+## Java/Spring specific
+/backend/target/
+/backend/.mvn/
+/backend/*.jar
+/backend/*.war
+/backend/*.ear
+/backend/*.class
+/backend/.gradle/
+/backend/build/
+
+## Database files
+/backend/*.sqlite
+/backend/*.sqlite3
+/backend/*.db
+
+# General
+## OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+## Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Local development files
+docker-compose.override.yml
