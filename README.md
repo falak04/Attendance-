@@ -1,6 +1,6 @@
 # 🎓 Student Attendance System
 
-## 📘 Project Overview
+##  Project Overview
 
 The **Student Attendance System** is a full-stack web application that helps educational institutions easily manage and track student attendance digitally. Instead of maintaining paper registers or spreadsheets, this system allows teachers, admins, and students to access everything from one intuitive online platform.
 
